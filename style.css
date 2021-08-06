@@ -1,0 +1,96 @@
+v* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
+  }
+  .container {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    transform-style: preserve-3d;
+    max-height: 150vh;
+    width: 20rem;
+    border-radius: 30px;
+    padding: 0rem 5rem;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bags {
+    min-height: 5vh;
+    width:20rem;
+    display: flex;
+    align-items: centre;
+    justify-content: center;
+    padding: auto;
+  }
+  .bags img {
+    width: 20rem;
+    height:40vh;
+    z-index:2;
+    transition: all 0.75s ease-out;
+  }
+  
+  
+  .info h1 {
+    font-size: 2rem;
+    transition: all 0.95s ease-out;
+    text-align: center;
+  }
+  .info h3 {
+    font-size: 1.2rem;
+    padding: 2rem 0rem;
+    color: #d13a3a;
+    font-weight: lighter;
+    transition: all 0.75s ease-out;
+    text-align: center;
+  }
+  .MRP {
+    display: flex;
+    justify-content:center;
+    transition: all 0.75s ease-out;
+  }
+  .MRP h2 {
+    padding: 0.5rem 2rem;
+    background: none;
+    border: none;
+    
+    border-radius: 30px;
+    cursor:pointer;
+    font-weight: bold;
+    color: #35aa18;
+    text-align: center;
+  }
+  .MRP h3{
+
+    text-align: center;
+  }
+
+  .icon {
+    
+    margin-top: 1rem;
+    transition: all 0.75s ease-out;
+  
+  }
+  .icon img {
+    width: 10%;
+    padding: 0rem 2rem;
+    background: #18646e00;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bolder;
+    
+  }
